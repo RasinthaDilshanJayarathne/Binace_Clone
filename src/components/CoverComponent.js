@@ -16,7 +16,7 @@ export default function CoverComponent() {
                 <div className="grid_comp">
                     <div className="comp_top">
                         <div className="comp_top_head">
-                            <img src={bit} alt="bitcoin" />
+                            <img src="https://th.bing.com/th/id/R.8a159f3eb58e87ce0352c72abb44d613?rik=TL7%2fm4Yh%2bbmm%2bg&pid=ImgRaw&r=0" alt="bitcoin" />
                             <div>
                                 <h2>BNB/BUSD</h2>
                                 <p>Volume 7,03,35,229,734 BUSD</p>
@@ -63,7 +63,7 @@ export default function CoverComponent() {
                 <div className="grid_comp">
                     <div className="comp_top">
                         <div className="comp_top_head">
-                            <img src="https://pbs.twimg.com/profile_images/1389823228533739522/-Tj2WF_6.jpg" alt="bitcoin" />
+                            <img src="https://th.bing.com/th/id/OIP.8tGhSxnFg4qpAoXMtClU9QHaHD?pid=ImgDet&rs=1" alt="bitcoin" />
                             <div>
                                 <h2>DOT/BUSD</h2>
                                 <p>Volume 7,03,35,229,734 BUSD</p>
@@ -135,9 +135,28 @@ export default function CoverComponent() {
 
                     <div className="price_header">
                         <div className="coin_data">
+                            <img src="https://th.bing.com/th/id/R.8a159f3eb58e87ce0352c72abb44d613?rik=TL7%2fm4Yh%2bbmm%2bg&pid=ImgRaw&r=0" alt="bitcoin" />
+                            <h2>BNB</h2>
+                            <p>BNB</p>
+                        </div>
+                        <div className="coin_data">
+                            <h3>$301.12</h3>
+                        </div>
+                        <div className="coin_data">
+                            <h4>-0.003</h4>
+                        </div>
+                        <div className="coin_data_graph">
+                            <img src={graph} alt="graph" />
+                        </div>
+                        <div className="coin_data">
+                            <button>Buy</button>
+                        </div>
+                    </div>
+                    <div className="price_header">
+                        <div className="coin_data">
                             <img src={bit} alt="bitcoin" />
-                            <h2>BNB</h2>
-                            <p>BNB</p>
+                            <h2>Bitcoin</h2>
+                            <p>BTC</p>
                         </div>
                         <div className="coin_data">
                             <h3>$301.12</h3>
@@ -154,9 +173,9 @@ export default function CoverComponent() {
                     </div>
                     <div className="price_header">
                         <div className="coin_data">
-                            <img src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Ethereum-ETH-icon.png" alt="bitcoin" />
-                            <h2>BNB</h2>
-                            <p>BNB</p>
+                            <img src="https://th.bing.com/th/id/OIP.8tGhSxnFg4qpAoXMtClU9QHaHD?pid=ImgDet&rs=1" alt="bitcoin" />
+                            <h2>Ethereum</h2>
+                            <p>ETH</p>
                         </div>
                         <div className="coin_data">
                             <h3>$301.12</h3>
@@ -173,9 +192,9 @@ export default function CoverComponent() {
                     </div>
                     <div className="price_header">
                         <div className="coin_data">
-                            <img src="https://pbs.twimg.com/profile_images/1389823228533739522/-Tj2WF_6.jpg" alt="bitcoin" />
-                            <h2>DOT</h2>
-                            <p>BNB</p>
+                            <img src="https://th.bing.com/th/id/R.21020394517924df4a0f25520b541e7e?rik=oGnPes787Acamg&pid=ImgRaw&r=0" alt="bitcoin" />
+                            <h2>ProjectG.</h2>
+                            <p>GAL</p>
                         </div>
                         <div className="coin_data">
                             <h3>$301.12</h3>
@@ -192,28 +211,9 @@ export default function CoverComponent() {
                     </div>
                     <div className="price_header">
                         <div className="coin_data">
-                            <img src="https://pbs.twimg.com/profile_images/1389823228533739522/-Tj2WF_6.jpg" alt="bitcoin" />
-                            <h2>DOT</h2>
-                            <p>BNB</p>
-                        </div>
-                        <div className="coin_data">
-                            <h3>$301.12</h3>
-                        </div>
-                        <div className="coin_data">
-                            <h4>-0.003</h4>
-                        </div>
-                        <div className="coin_data_graph">
-                            <img src={graph} alt="graph" />
-                        </div>
-                        <div className="coin_data">
-                            <button>Buy</button>
-                        </div>
-                    </div>
-                    <div className="price_header">
-                        <div className="coin_data">
-                            <img src="https://pbs.twimg.com/profile_images/1389823228533739522/-Tj2WF_6.jpg" alt="bitcoin" />
-                            <h2>DOT</h2>
-                            <p>BNB</p>
+                            <img src="https://th.bing.com/th/id/OIP.IG5KX_QPZY_jSetkY7w5uAHaHa?pid=ImgDet&w=1000&h=1000&rs=1" alt="bitcoin" />
+                            <h2>GreenM.</h2>
+                            <p>GMT</p>
                         </div>
                         <div className="coin_data">
                             <h3>$301.12</h3>
