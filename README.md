@@ -1,4 +1,4 @@
-#Binance Clone
+#Binance Clone, Using ReactJS
 
 ![Screenshot (1244)](https://user-images.githubusercontent.com/87766409/185773001-4943572c-eb9c-4bb1-ad04-1346071d73a3.png)
 
