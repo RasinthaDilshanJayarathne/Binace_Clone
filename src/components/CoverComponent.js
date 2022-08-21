@@ -12,7 +12,7 @@ export default function CoverComponent() {
             </div>
 
             <div className='cover_middle cover_grid'>
-                
+
                 <div className="grid_comp">
                     <div className="comp_top">
                         <div className="comp_top_head">
@@ -110,7 +110,132 @@ export default function CoverComponent() {
 
             <div className='cover_bottom'>
 
+                <h1>Market trend</h1>
+
+
+                <div className="price_table">
+
+                    <div className="price_header">
+                        <div className="name">
+                            <p>Name</p>
+                        </div>
+                        <div className="name">
+                            <p>Last Price</p>
+                        </div>
+                        <div className="name">
+                            <p>24th Change</p>
+                        </div>
+                        <div className="name">
+                            <p>Market</p>
+                        </div>
+                        <div className="name">
+                            <p></p>
+                        </div>
+                    </div>
+
+                    <div className="price_header">
+                        <div className="coin_data">
+                            <img src={bit} alt="bitcoin" />
+                            <h2>BNB</h2>
+                            <p>BNB</p>
+                        </div>
+                        <div className="coin_data">
+                            <h3>$301.12</h3>
+                        </div>
+                        <div className="coin_data">
+                            <h4>-0.003</h4>
+                        </div>
+                        <div className="coin_data_graph">
+                            <img src={graph} alt="graph" />
+                        </div>
+                        <div className="coin_data">
+                            <button>Buy</button>
+                        </div>
+                    </div>
+                    <div className="price_header">
+                        <div className="coin_data">
+                            <img src="https://icons.iconarchive.com/icons/cjdowner/cryptocurrency-flat/1024/Ethereum-ETH-icon.png" alt="bitcoin" />
+                            <h2>BNB</h2>
+                            <p>BNB</p>
+                        </div>
+                        <div className="coin_data">
+                            <h3>$301.12</h3>
+                        </div>
+                        <div className="coin_data">
+                            <h4>-0.003</h4>
+                        </div>
+                        <div className="coin_data_graph">
+                            <img src={graph} alt="graph" />
+                        </div>
+                        <div className="coin_data">
+                            <button>Buy</button>
+                        </div>
+                    </div>
+                    <div className="price_header">
+                        <div className="coin_data">
+                            <img src="https://pbs.twimg.com/profile_images/1389823228533739522/-Tj2WF_6.jpg" alt="bitcoin" />
+                            <h2>DOT</h2>
+                            <p>BNB</p>
+                        </div>
+                        <div className="coin_data">
+                            <h3>$301.12</h3>
+                        </div>
+                        <div className="coin_data">
+                            <h4>-0.003</h4>
+                        </div>
+                        <div className="coin_data_graph">
+                            <img src={graph} alt="graph" />
+                        </div>
+                        <div className="coin_data">
+                            <button>Buy</button>
+                        </div>
+                    </div>
+                    <div className="price_header">
+                        <div className="coin_data">
+                            <img src="https://pbs.twimg.com/profile_images/1389823228533739522/-Tj2WF_6.jpg" alt="bitcoin" />
+                            <h2>DOT</h2>
+                            <p>BNB</p>
+                        </div>
+                        <div className="coin_data">
+                            <h3>$301.12</h3>
+                        </div>
+                        <div className="coin_data">
+                            <h4>-0.003</h4>
+                        </div>
+                        <div className="coin_data_graph">
+                            <img src={graph} alt="graph" />
+                        </div>
+                        <div className="coin_data">
+                            <button>Buy</button>
+                        </div>
+                    </div>
+                    <div className="price_header">
+                        <div className="coin_data">
+                            <img src="https://pbs.twimg.com/profile_images/1389823228533739522/-Tj2WF_6.jpg" alt="bitcoin" />
+                            <h2>DOT</h2>
+                            <p>BNB</p>
+                        </div>
+                        <div className="coin_data">
+                            <h3>$301.12</h3>
+                        </div>
+                        <div className="coin_data">
+                            <h4>-0.003</h4>
+                        </div>
+                        <div className="coin_data_graph">
+                            <img src={graph} alt="graph" />
+                        </div>
+                        <div className="coin_data">
+                            <button>Buy</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div className="bottom_line">
+                <h2>View More Markets</h2>
+                <p>Introducing Unifi Protocol DAO (UNFI) on Binance Launchpool! Farm UNFI By Staking BNB, BUSD & ETH Tokens 11-13 More</p>
             </div>
         </div>
+
     )
 }

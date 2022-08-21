@@ -196,3 +196,351 @@
     margin-top: 20px;
     padding: 6px;
 }
+
+.price_header:hover {
+    background-color: #fff;
+
+
+}
+
+.name>p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+}
+
+.coin_data>img {
+    width: 30px;
+}
+
+.coin_data {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.coin_data>h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #666;
+    margin-left: 8px;
+}
+
+.coin_data>h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.coin_data>p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #000;
+    margin-left: 8px;
+}
+
+.coin_data>h4 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #f03;
+}
+
+.coin_data_graph>img {
+    width: 80px;
+}
+
+.coin_data>button {
+    padding: 10px 16px 10px 16px;
+    font-size: 1rem;
+    background-color: #ccc;
+    outline-width: 0px;
+    border: 0px;
+    color: #000;
+    cursor: pointer;
+}
+
+.bottom_line {
+    background-color: #f8f8f8;
+    padding: 16px;
+}
+
+
+.bottom_line>h2 {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    cursor: pointer;
+    margin: 16px;
+}
+
+.bottom_line>p {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666;
+    cursor: pointer;
+    margin: 16px;
+}
+
+
+.blog_comp {
+    margin: 4rem;
+}
+
+.blog_header>h1 {
+    font-weight: 400;
+    color: #222;
+    cursor: pointer;
+}
+
+.blog_header>p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.blog_filter {
+    display: flex;
+    flex-direction: row;
+}
+
+.blog_filter>button {
+    margin: 16px;
+    margin-left: 0px;
+    padding: 10px 16px 10px 16px;
+    font-weight: bold;
+    outline-width: 0px;
+    border-width: 0px;
+    color: #666;
+}
+
+.bg_color {
+    background-color: transparent;
+}
+
+.blog_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.grid_comp {
+    cursor: pointer;
+}
+
+.grid_comp>img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.grid_comp>p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.pro_grid_comp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    padding-right: 0px;
+}
+
+.pro_grid_comp>img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.pro_grid_comp>h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #222;
+    cursor: pointer;
+}
+
+.pro_grid_comp>p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+    margin-top: 16px;
+    cursor: pointer;
+}
+
+.pro_grid_comp>button {
+    background-color: #dea30d;
+    align-self: flex-start;
+    margin-top: 16px;
+    padding: 10px 25px 10px 25px;
+    width: 200px;
+    border: 0px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+
+
+.faq_comp {
+    margin: 4rem;
+}
+
+.faq_comp>h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #222;
+    cursor: pointer;
+    margin-bottom: 16px;
+}
+
+.faq_row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.faq_row:hover {
+    background-color: #ccc;
+}
+
+.faq_row>.MuiSvgIcon-root {
+    color: #666;
+
+}
+
+.faq_row>.MuiSvgIcon-root:hover {
+    color: #dea30d;
+}
+
+.faq_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+.faq_col>h1 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+}
+
+.faq_col {
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    margin-top: 0px;
+}
+
+.faq_col>h2 {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #222;
+    margin-top: 16px;
+}
+
+.faq_bottom {
+    padding: 4rem;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ccc;
+    height: 50px;
+}
+
+.faq_bottom>h1 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #444;
+    margin-top: 16px;
+}
+
+.row_faq {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #ccc;
+    width: 100%;
+    justify-content: center;
+}
+
+.row_faq>button {
+    padding: 10px 25px 10px 25px;
+    border: 0px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 16px;
+    margin-top: 16px;
+}
+
+
+.bg_yellow {
+    background-color: #dea30d;
+}
+
+
+
+
+.footer {
+    background-color: #222;
+    padding: 4rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.footer_comp>h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ccc;
+    margin-bottom: 16px;
+}
+
+.footer_comp>p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #789;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.footer_comp>p:hover {
+    color: #ccc;
+}
+
+.footer_comp_grid {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_comp_grid>div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.footer_comp_grid>h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ccc;
+    margin-bottom: 16px;
+}
+
+.footer_comp_grid>div>.MuiSvgIcon-root {
+    color: #ccc;
+    margin-left: 0px;
+    margin-top: 16px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    margin-right: 2rem;
+}
+
+.footer_comp_grid>div>.MuiSvgIcon-root:hover {
+    color: #f8f8f8;
+}
