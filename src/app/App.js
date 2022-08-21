@@ -4,6 +4,7 @@ import CoverComponent from '../components/CoverComponent';
 import BlogComponent from '../components/BlogComponent';
 import FaqComponent from '../components/FaqComponent';
 import FooterComponent from '../components/FooterComponent';
+import ProductComponent from '../components/ProductComponent';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <BlogComponent />
         <FaqComponent />
         <FooterComponent />
+        <ProductComponent />
     </div>
   );
 }
