@@ -1,3 +1,7 @@
+.app {
+    height: 100vh;
+}
+
 .header {
     display: flex;
     flex-direction: row;
@@ -41,4 +45,154 @@
 
 .cover {
     background-color: #000;
+}
+
+.cover_top {
+    background-image: url("./../assets/cover.png");
+    background-size: cover;
+    padding: 4rem;
+    color: #ccc;
+}
+
+.cover_top>h1 {
+    font-size: 3rem;
+    font-weight: 600;
+
+}
+
+.cover_top>button {
+    margin: 1rem 2rem 1rem 0rem;
+    padding: 1rem 2rem 1rem 2rem;
+    font-size: 1.1rem;
+    color: #000;
+}
+
+.cover_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 16px;
+}
+
+.cover_middle {
+    background-size: cover;
+    background-color: #f8f8f8;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.grid_comp {
+    margin: 16px;
+    background-color: #fff;
+    box-shadow: 0px 0px 8px -5px #ccc;
+    padding: 16px;
+    border-radius: 5px;
+}
+
+
+.comp_top_head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.comp_top_head>img {
+    width: 40px;
+}
+
+
+.comp_top_head>p {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.comp_top_head>div>h2 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #666;
+}
+
+.comp_top_head>div>p {
+    font-size: 0.6rem;
+    font-weight: 400;
+    color: #666;
+}
+
+.comp_middle {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+
+}
+
+.comp_middle>h1 {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+.comp_middle>p {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #666;
+    margin-left: 8px;
+}
+
+.comp_bottom>img {
+    width: 70px;
+}
+
+.color_red {
+    color: #f03;
+}
+
+.color_green {
+    color: green;
+}
+
+.cover_bottom {
+    padding: 4rem;
+    background-color: #f8f8f8;
+}
+
+.comp_bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.comp_bottom>div {
+    background-color: #dea30d;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 33px;
+    cursor: pointer;
+}
+
+.comp_bottom>div>img {
+    width: 16px;
+}
+
+.cover_bottom>h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #666;
+}
+
+.price_header {
+    background-color: #f8f8f8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: 6px;
 }
