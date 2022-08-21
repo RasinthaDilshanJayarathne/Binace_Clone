@@ -1,3 +1,5 @@
+#Binance Clone
+
 ![Screenshot (1244)](https://user-images.githubusercontent.com/87766409/185773001-4943572c-eb9c-4bb1-ad04-1346071d73a3.png)
 
 ![Screenshot (1245)](https://user-images.githubusercontent.com/87766409/185773004-da7f7c68-1ed2-40c3-b2c0-ae5224c4021e.png)
