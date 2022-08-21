@@ -3,7 +3,7 @@ import HeadeComponents from '../components/HeadeComponents';
 import CoverComponent from '../components/CoverComponent';
 import BlogComponent from '../components/BlogComponent';
 import FaqComponent from '../components/FaqComponent';
-import FaqChild from '../components/FaqChild';
+import FooterComponent from '../components/FooterComponent';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
         <CoverComponent />
         <BlogComponent />
         <FaqComponent />
-        <FaqChild />
+        <FooterComponent />
     </div>
   );
 }

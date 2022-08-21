@@ -4,9 +4,8 @@ import AddCircleIcon from '@material-ui/icons/AddCircle';
 import IconButton from '@material-ui/core/IconButton';
 import RemoveIcon from '@material-ui/icons/Remove';
 
-import React from 'react'
+const FaqChild = ({item}) => {
 
-export default function FaqChild({item}) {
 	const [state, set_state] = useState(false);
 
 	return (
@@ -23,3 +22,5 @@ export default function FaqChild({item}) {
 		</div>
 	)
 }
+
+export default FaqChild
