@@ -8,3 +8,33 @@
     padding-right: 10px;
     color: #fff;
 }
+
+.header>img {
+    width: 150px;
+}
+
+.right_header>h3 {
+    margin-left: 16px;
+    font-weight: 600;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+.right_header>h3:hover {
+    color: #dea30d;
+}
+
+.yellow_button {
+    background-color: #dea30d;
+    padding: 10px 12px 10px 12px;
+    color: #fff;
+    outline-width: 0px;
+    border-width: 0px;
+    border-radius: 8px;
+    margin-left: 16px;
+    cursor: pointer;
+}
+
+.grey_button {
+    background-color: transparent;
+}
